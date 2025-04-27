@@ -1,0 +1,24 @@
+/* Bar Animation */
+.bar {
+  width: 0;
+  transition: width 2s ease-in-out;
+}
+
+.animate-bar {
+  width: 50%;
+  /* You can adjust this value as needed */
+}
+
+/* Text Animation */
+.text-animate {
+  opacity: 0;
+  transform: translateX(-30px);
+  /* Slide text from left */
+  transition: all 1s ease-in-out;
+}
+
+.animate-text {
+  opacity: 1;
+  transform: translateX(0);
+  /* Move text to its original position */
+}
