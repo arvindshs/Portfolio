@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import { Proj } from "../components/Proj";
+import Proj from "../components/Proj";
 
 function Projects() {
   return (
